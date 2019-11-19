@@ -80,11 +80,6 @@
   cursor: pointer;
   @include hover() {
     @include box-shadow(2);
-    .card__image {
-      & > img {
-        height: inherit;
-      }
-    }
   }
   @include transition(map-get($clickable, transition));
 }

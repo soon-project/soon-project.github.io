@@ -6,7 +6,7 @@ $base: (
   font-size-root-sm:      14px,
 
   font-size-xl:           1.5rem,
-  font-size-lg:           1.25rem,
+  font-size-lg:           1.1rem,
   font-size:              1rem,
   font-size-sm:           .85rem,
   font-size-xs:           .7rem,
@@ -116,8 +116,8 @@ $button-height-xs:        1.2rem;
 $button: (
   padding-y-xl:           ($button-height-xl - map-get($base, font-size-xl)) / 2,
   padding-x-xl:           $button-height-xl / 3,
-  padding-y-lg:           ($button-height-lg - map-get($base, font-size-lg)) / 2,
-  padding-x-lg:           $button-height-lg / 3,
+  padding-y-lg:           ($button-height-lg - map-get($base, font-size-lg)) / 1.5,
+  padding-x-lg:           $button-height-lg / 2.5,
   padding-y:              ($button-height - map-get($base, font-size)) / 2,
   padding-x:              $button-height / 3,
   padding-y-sm:           ($button-height-sm - map-get($base, font-size-sm)) / 2,
