@@ -1,10 +1,6 @@
 header:
   - title: Home
     url: /index.html
-  - title: Publications
-    url: /publications.html
-  - title: Deliverables
-    url: /deliverables.html
   - title: About
     url: /about.html
   - title: Contact
