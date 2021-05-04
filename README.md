@@ -4,10 +4,13 @@ The repository store the source code of the website for the SOON project. It is 
 
 ## Run locally
 
-In the folder *tools*, the script (*build_container_and_run.sh*) run the website inside a docker container (Docker is required). The script create a container and launch it (need to be executed from the root of the repository):
+In the folder *tools*, the script (*build_and_run.sh*) run the website inside a docker container (Docker is required). The script create a container and launch it (need to be executed from the root of the repository):
 ``` bash
-./tools/build_container_and_run.sh
+./tools/build_and_run.sh
 ```
+When the execution of the script is done, the website can be open with the URL [http://localhost:4000](http://localhost:4000).
+
+The script (*build_and_run-with-refresh.sh*) can be used to detect when a modification is made to files and automatically rebuild the website from sources (p.ex. during development, testing, etc).
 
 ## Credits
 
